@@ -10,17 +10,18 @@
 <!-- PROJECT LOGO -->
 <br />
 
-  <h3 align="center">Path Finding (A* algorithm)</h3>
+  <h3 align="center"> Delving into OpenGL</h3>
 
   <p align="center">
-    A simple C++ and SFML based implementation of A-star searching algorithm for a path-finding application
+    A simple graphics framework implementation using OpenGL following the YouTube series
+    <a href="https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2">OpenGL</a> and using <a href="https://www.youtube.com/watch?v=qhbuKbxJsk8">Circular Times Tables</a> as an example. This project can serve as a starting point for venturing into OpenGL with C++ and Visual Studio with minimum setup required 
     <br />
     <br />
-    <a href="https://github.com/Cyna298/Path-Finding-A-star">View Demo</a>
+    <a href="https://github.com/Cyna298/Circluar-Times-Tables-OpenGL">View Demo</a>
     ·
-    <a href="https://github.com/Cyna298/Path-Finding-A-star/issues">Report Bug</a>
+    <a href="https://github.com/Cyna298/Circluar-Times-Tables-OpenGL/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Cyna298/Path-Finding-A-star/issues">Request Feature</a>
+    <a href="https://github.com/Cyna298/Circluar-Times-Tables-OpenGL/issues">Request Feature</a>
   </p>
 </p>
 
@@ -61,8 +62,8 @@
 ### Built With
 
 * [C++](https://gcc.gnu.org/)
-* [SFML](https://www.sfml-dev.org/)
-
+* [OpenGL](https://www.opengl.org//)
+* [Visual Studio (2019)](https://visualstudio.microsoft.com/)
 
 
 <!-- GETTING STARTED -->
@@ -72,30 +73,18 @@ To get the code up and running follow these simple steps.
 
 ### Prerequisites
 
-First you would need to download and setup the SFML library in the IDE of your choice. Follow the setup tutorial given on their offical page
-* SFML
-  ```sh
-  https://www.sfml-dev.org/download.php
-  ```
-And then simply run the [main.cpp](Code%20Files/main.cpp) file
+* Have Visual Studio up and running on your Windows computer
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-If you simply wish to run the program. You can run the [SFML.exe](SFML.exe) file, it works out of the box.
-* Everything in white color will be considered paths
+* Open the [Diving into OpenGL.sln](Diving%20into%20OpenGL.sln) file in Visual Studio
 
-* Left Mouse Click anywhere on anywhere on a path to set the starting location
+* Run [timesTables.cpp](/Project12/timesTables.cpp)
 
-* Next, Left Mouse Click anywhere on a path to set the ending location and the algorithm should start working 
-
-![Demo](images/demo.gif)
-
-* Replace the [map.png](map.png) with your own image for custom paths
-
-![Custom](images/custom_map.gif)
+![Demo](ogldemo.gif)
 
 
 
@@ -127,15 +116,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Cyna298/Path-Finding-A-star.svg?style=for-the-badge
-[contributors-url]: https://github.com/Cyna298/Path-Finding-A-star/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Cyna298/Path-Finding-A-star.svg?style=for-the-badge
-[forks-url]: https://github.com/Cyna298/Path-Finding-A-star/network/members
-[stars-shield]: https://img.shields.io/github/stars/Cyna298/Path-Finding-A-star.svg?style=for-the-badge
-[stars-url]: https://github.com/Cyna298/Path-Finding-A-star/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Cyna298/Path-Finding-A-star.svg?style=for-the-badge
-[issues-url]: https://github.com/Cyna298/Path-Finding-A-star/issues
-[license-shield]: https://img.shields.io/github/license/Cyna298/Path-Finding-A-star.svg?style=for-the-badge
-[license-url]: https://github.com/Cyna298/Path-Finding-A-star/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Cyna298/Circluar-Times-Tables-OpenGL.svg?style=for-the-badge
+[contributors-url]: https://github.com/Cyna298/Circluar-Times-Tables-OpenGL/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Cyna298/Circluar-Times-Tables-OpenGL.svg?style=for-the-badge
+[forks-url]: https://github.com/Cyna298/Circluar-Times-Tables-OpenGL/network/members
+[stars-shield]: https://img.shields.io/github/stars/Cyna298/Circluar-Times-Tables-OpenGL.svg?style=for-the-badge
+[stars-url]: https://github.com/Cyna298/Circluar-Times-Tables-OpenGL/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Cyna298/Circluar-Times-Tables-OpenGL.svg?style=for-the-badge
+[issues-url]: https://github.com/Cyna298/Circluar-Times-Tables-OpenGL/issues
+[license-shield]: https://img.shields.io/github/license/Cyna298/Circluar-Times-Tables-OpenGL.svg?style=for-the-badge
+[license-url]: https://github.com/Cyna298/Circluar-Times-Tables-OpenGL/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mubariz-barkat-ali-0a8b86191/
